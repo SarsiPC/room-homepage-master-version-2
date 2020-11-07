@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <div class="container">
+      <div class="content-1">
+        <div class="slide-div">
+          <div class="slide-content-1">
+            <div class="nav-bar">
+              <img class="nav-ham" src="images/icon-hamburger.svg" alt="">
+              <img class="logo-mobile" src="images/logo.svg" alt="">
+              <div class="nav-links">
+                <p>Home</p>
+                <p>Shop</p>
+                <p>About</p>
+                <p>Contact</p>
+              </div>
+            </div>
+            <div class="slider-mobile">
+              <a class="prev" onclick="plusSlides(-1)"><img class="slide-left" src="images/icon-angle-left.svg" alt=""></a>
+              <a class="next" onclick="plusSlides(1)"><img class="slide-right" src="images/icon-angle-right.svg" alt=""></a>
+            </div>
+            <img class="desktop-hero" src="images/desktop-image-hero-1.jpg" alt="">
+            <img class="mobile-hero" src="images/mobile-image-hero-1.jpg" alt="">
+          </div>
+
+          <div class="slide-content-2">
+            <h1 class="slide-head">Discover innovative ways to decorate</h1>
+
+            <p class="slide-par">We provide unmatched quality, comfort, and style for property owners across the country.
+            Our experts combine form and function<br> in bringing your vision to life. Create a room in your 
+            own style with our collection and make your property a reflection of you and<br> what you love.</p>
+
+            <div class="slide-button">
+              <p class="button-par">Shop now</p>
+              <img src="images/icon-arrow.svg" alt="">
+            </div>
+            <div class="slider-desktop">
+              <a class="prev" onclick="plusSlides(-1)"><img class="desktop-slide-left" src="images/icon-angle-left.svg" alt=""></a>
+              <a class="next" onclick="plusSlides(1)"><img class="desktop-slide-right" src="images/icon-angle-right.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-div">
+          <div class="slide-content-1">
+            <div class="nav-bar">
+              <img class="nav-ham" src="images/icon-hamburger.svg" alt="">
+              <img class="logo-mobile" src="images/logo.svg" alt="">
+              <div class="nav-links">
+                <p>Home</p>
+                <p>Shop</p>
+                <p>About</p>
+                <p>Contact</p>
+              </div>
+            </div>
+            <div class="slider-mobile">
+              <a class="prev" onclick="plusSlides(-1)"><img class="slide-left" src="images/icon-angle-left.svg" alt=""></a>
+              <a class="next" onclick="plusSlides(1)"><img class="slide-right" src="images/icon-angle-right.svg" alt=""></a>
+            </div>
+            <img class="desktop-hero" src="images/desktop-image-hero-2.jpg" alt="">
+            <img class="mobile-hero" src="images/mobile-image-hero-2.jpg" alt="">
+          </div>
+
+          <div class="slide-content-2">
+            <h1 class="slide-head">We are available all across the globe</h1>
+
+            <p class="slide-par">With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+            Locally, we’re in most major cities<br> throughout the country. Find the branch nearest you using our 
+            store locator. Any questions? Don't hesitate to contact us today.</p>
+
+            <div class="slide-button">
+              <p class="button-par">Shop now</p>
+              <img src="images/icon-arrow.svg" alt="">
+            </div>
+            <div class="slider-desktop">
+              <a class="prev" onclick="plusSlides(-1)"><img class="desktop-slide-left" src="images/icon-angle-left.svg" alt=""></a>
+              <a class="next" onclick="plusSlides(1)"><img class="desktop-slide-right" src="images/icon-angle-right.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-div">
+          <div class="slide-content-1">
+            <div class="nav-bar">
+              <img class="nav-ham" src="images/icon-hamburger.svg" alt="">
+              <img class="logo-mobile" src="images/logo.svg" alt="">
+              <div class="nav-links">
+                <p>Home</p>
+                <p>Shop</p>
+                <p>About</p>
+                <p>Contact</p>
+              </div>
+            </div>
+            <div class="slider-mobile">
+              <a class="prev" onclick="plusSlides(-1)"><img class="slide-left" src="images/icon-angle-left.svg" alt=""></a>
+              <a class="next" onclick="plusSlides(1)"><img class="slide-right" src="images/icon-angle-right.svg" alt=""></a>
+            </div>
+            <img class="desktop-hero" src="images/desktop-image-hero-3.jpg" alt="">
+            <img class="mobile-hero" src="images/mobile-image-hero-3.jpg" alt="">
+          </div>
+
+          <div class="slide-content-2">
+            <h1 class="slide-head">Manufactured with the best materials</h1>
+
+            <p class="slide-par">Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+            to ensure that every<br> product is made as perfect and as consistent as possible. With three decades of 
+            experience in this industry, we understand what<br> customers want for their home and office.</p>
+
+            <div class="slide-button">
+              <p class="button-par">Shop now</p>
+              <img src="images/icon-arrow.svg" alt="">
+            </div>
+            <div class="slider-desktop">
+              <a class="prev" onclick="plusSlides(-1)"><img class="desktop-slide-left" src="images/icon-angle-left.svg" alt=""></a>
+              <a class="next" onclick="plusSlides(1)"><img class="desktop-slide-right" src="images/icon-angle-right.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-div">
+        <div class="content-2">
+          <img src="images/image-about-dark.jpg" alt="">
+        </div>
+        <div class="content-3">
+          <h2 class="content-3-head">About our furniture</h2>
+
+          <p class="content-3-par">Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme<br> that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or<br> anything in between. Product specialists are available to help you create your dream space.</p>
+        </div>
+        <div class="content-4">
+          <img src="images/image-about-light.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.instagram.com/sarsipc/" target="_blank">SarsiPC</a>.
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
